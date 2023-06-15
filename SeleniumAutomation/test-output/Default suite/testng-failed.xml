@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGAnnotations.ParallelTesting">
+      <class name="PageFactory.Login2_Test">
         <methods>
-          <include name="testlogo"/>
-          <include name="closeApp"/>
+          <include name="test_Login"/>
+          <include name="test_Logout"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestNGAnnotations.ParallelTesting -->
+      </class> <!-- PageFactory.Login2_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
